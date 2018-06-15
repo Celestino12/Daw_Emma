@@ -10,6 +10,10 @@
   },
   "_source": "https://github.com/twbs/bootstrap.git",
   "_target": "^4.1.1",
+<<<<<<< HEAD
   "_originalSource": "boostrap",
   "_direct": true
+=======
+  "_originalSource": "boostrap"
+>>>>>>> origin/master
 }
