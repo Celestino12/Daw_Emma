@@ -9,10 +9,15 @@
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
 <!-- dirección para enlazar la librería de los iconos-->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+<!--Se agrega el link de Css-styles personalizados-->
+<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
 
 <body>
   <!--Aquí va la barra de navegación-->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <!--Aqui va el espacio para la imagen de la barra de navegación-->
     <a href="index.html" class="navbar-brand">Company Logo</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
@@ -24,21 +29,51 @@
         <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
         <li class="nav-item"><a href="About.html" class="nav-link">About Us</a></li>
         <li class="nav-item"><a href="Contact.html" class="nav-link">Contact Us</a></li>
-        <li class="nav-item"></li>
-        <li class="nav-item">
-          <form  class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </li>
-      </ul>
+        <li class="nav-item"> <form class="form-inline my-2 my-lg-0">
+     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+   </form>
+   </li>
+   </ul>
     </div>
   </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Featured Product</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="btn-group btn-group-lg">
+          <button class="btn btn-info">Buy Now!</button>
+          <button class="btn btn-default">Free Trial</button>
+        </div>
+        <p><a href="#">Read more about the product</a></p>
+          </div>
+        <div class="col-md-8 d-none d-sm-block">
+
+<br><img src="img/Dos.png" alt="" width="350px" height="350px"></br>
+        </div>
+
+    </div>
+    <hr>
+  </div>
 
   <!-- se agrega la libreria de jqueria para que boostra.js funcione-->
   <script src="bower_components\jquery\dist\jquery.js"></script>
 <!-- Se agrega a librería de bootstrab.js para las animaciones-->
 <script src="bower_components\boostrap\dist\js\bootstrap.js"></script>
+<script src="bower_components\hammerjs\hammer.js"></script>
+<script>
+var $doby = document.body;
+var hammertime = new Hammer($doby);
+hammertime.on('swipeleft', function(ev) {
+	console.log(ev);
+});
+
+var hammertime = new Hammer($doby);
+hammertime.on('swiperight', function(ev) {
+	console.log(ev);
+});
+</script>
 
 </body>
 </html>
