@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta class="UTF-8">
+  <meta class="viewport" content="witdth=device-width, initial-scale=1.0">
+  <meta class="X-UA-Compatible" content="ie=edge">
+  <title>Zapateria</title>
+  <!-- dirección para enlazar el estilo de css con bootstrap y hacer-->
+  <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
+  <!-- dirección para enlazar la librería de los iconos-->
+<link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+<!--Se agrega el link de Css-styles personalizados-->
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <!--Menu-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-TOP">
+    <!--Aqui va el espacio para la imagen de la barra de navegación-->
+    <a href="index.html" class="navbar-brand">ZAPATERIA FARA</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion" class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav" > <!--Ul = lista desordenada-->
+        <li class="nav-item"> <a href="index.html" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="catalogos.html" class="nav-link">Catalogos</a></li>
+        <li class="nav-item"><a href="ofertas.html" class="nav-link">Ofertas</a></li>
+
+        <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Inscribete</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fin Menu-->
+  <br>
+  <br>
+  <!--Contenido de la pagina-->
+      <div class=" text-white">
+          <img class="card-img" src="img/fara.png" alt="Card image">
+      </div>
+
+    <hr>
+
+    <!-- /.row -->
+    <hr>
+    <div class="row">
+
+      <hr>
+
+      <!-- /.footer -->
+    </div>
+    <!-- /.row -->
+  </div>
+
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Inscribete</h5>
+          <buttton class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </buttton>
+          <!-- /.close -->
+        </div> <!--End header-->
+        <div class="modal-body">
+          <form>
+
+            <div class="form-group">
+              <label for="contact-name" class="col-form-label">Name:</label>
+              <input type="text" class="form-control" id="contact name">
+            </div>
+            <div class="form-group">
+              <label for="contact-lastname" class="col-form-label">Las Name:</label>
+              <input type="text" class="form-control" id="contact lastname">
+            </div>
+            <div class="form-group">
+              <label for="contact-telephone" class="col-form-label">Telephone:</label>
+              <input type="text" class="form-control" id="contact telephone">
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="contact-email">
+            </div>
+            
+          </form>
+        </div>
+        <!-- /.modal-body -->
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button class="btn btn-primary">Send</button>
+        </div>
+
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+
+  </div>
+  <!-- /.modal -->
+
+  <div class="footer bg-dark text-light pt-5 pb-2">
+      <div class="">
+        <div class="col-md-12">
+          <p class="text-center lead">
+            VEN Y CONOCENOS...
+          </p>
+          <ul class="list-unstyled text-center">
+            <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <script src="bower_components\jquery\dist\jquery.js"></script>
+  <script src="bower_components\boostrap\dist\js\bootstrap.js"></script>
+
+  </body>
+  </html>
