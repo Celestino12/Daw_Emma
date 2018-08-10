@@ -1,6 +1,10 @@
+
 body{
   background-color: #White;
 }
 .container{
   align-items: center;
+}
+.miIcono{
+  font-size: 100px;
 }

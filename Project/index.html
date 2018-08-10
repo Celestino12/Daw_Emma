@@ -13,105 +13,135 @@
 <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
+  <!--Menu-->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-TOP">
-  <!--Aqui va el espacio para la imagen de la barra de navegación-->
-  <a href="index.html" class="navbar-brand">ZAPATERIAS FARA</a>
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div id="navegacion" class="justify-content-end collapse navbar-collapse">
-    <ul class="navbar-nav" > <!--Ul = lista desordenada-->
-      <li class="nav-item"> <a href="index.html" class="nav-link">Nosotros</a></li>
-      <li class="nav-item"><a href="catalogos.html" class="nav-link">Catalogos</a></li>
-      <li class="nav-item"><a href="ofertas.html" class="nav-link">Ofertas</a></li>
-      <li class="nav-item"><a href="accesorios.html" class="nav-link">Accesorios</a></li>
-      <li class="nav-item"><a href="inscribete.html" class="nav-link">Inscribete</a></li>
-
-
- </li>
- </ul>
-  </div>
-
-</nav>
-
-<br>
-<br>
+    <!--Aqui va el espacio para la imagen de la barra de navegación-->
+    <a href="index.html" class="navbar-brand">ZAPATERIA FARA</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion" class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav" > <!--Ul = lista desordenada-->
+        <li class="nav-item"> <a href="index.html" class="nav-link">Nosotros</a></li>
+        <li class="nav-item"><a href="catalogos.html" class="nav-link">Catalogos</a></li>
+        <li class="nav-item"><a href="ofertas.html" class="nav-link">Ofertas</a></li>
+        <li class="nav-item"><a href="inscribete.html" class="nav-link">Inscribete</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Fin Menu-->
+  <br>
+  <br>
+  <!--Contenido de la pagina-->
   <div class="container">
-    <div class="col-md-12 text-center">
+    <!--Carousel-->
     <div class="row">
-      <div class="carousel slide" id="carousel-index" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/zapatos3.jpg" alt="40" class"d-block w-60">
+      <div class="col-md-12">
+        <div class="carousel slide" id="carousel-index" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carousel_index/1.jpg" alt="imagen 1" class"d-block w-60">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel_index/2.jpg" alt="imagen 2" class="d-block w-60">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel_index/3.jpg" alt="imagen 3" class="d-block w-60">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel_index/4.jpg" alt="imagen 4" class="d-block w-60">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/zapatos3.jpg" alt="40" class="d-block w-60">
-          </div>
-          <div class="carousel-item">
-            <img src="img/zapatos1.jpg" alt="40" class="d-block w-60">
-          </div>
-          <div class="carousel-item">
-            <img src="img/zapatos4.jpg" alt="40" class="d-block w-60">
-          </div>
+          <a href="#carousel-index" class="carousel-control-prev" data-slide="prev" role="button">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#carousel-index" class="carousel-control-next" role="button">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
-        <a href="#carousel-index" class="carousel-control-prev" data-slide="prev" role="button">
-          <span class="carousel-control-prev-icon">
-          </span>
-        </a>
-        <a href="#carousel-index" class="carousel-control-next" role="button">
-          <span class="carousel-control-next-icon"></span>
-        </a>
       </div>
     </div>
-    </div>
-<br>
+    <!--Fin Carousel-->
+    <br>
 
-  <div class="row text-center features">
-<div class="col-md-6 col-sm-12 col-12">
-
- <h3>Servicios:</h3>
- <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ullam, hic autem dignissimos ea aliquam!</p>
-<i class="fas fa-cocktail"></i>
-</div>
-<div class="col-md-6 col-sm-6 col-6">
-
- <h3>Horario:</h3>
-
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vitae, assumenda consequatur cumque
- obcaecati similique.</p>
- <i class="fas fa-clock"></i>
-</div>
-<!-- /.col-md-4 -->
-<br>
-<div class="row text-center features col-md-6">
-  <div class="col-md-6 col-sm-12 col-12">
-    <h3>¿Cómo llegar?</h3>
-    <p>Lorem ipsum dolor sit amet</p>
-
-  </div>
-  <div class="col-md-6 col sm12 col-12">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15138.530870787366!2d-97.41409233360945!3d18.454977906873488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bcd79467dfe1%3A0xb48a72eff17cae8f!2sBar+El+Agave!5e0!3m2!1ses-419!2smx!4v1530890732280" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-
-<div class="footer col-md-12">
-        <p class="text-center lead col-md-12">
-          VEN Y CONOCENOS...
+    <!--Mision y valores-->
+    <div class="row features">
+      <div class="col-md-6 col-sm-12 col-12 bg-secondary text-light">
+        <h2>MISIÓN</h2>
+        <hr>
+        <p class="text-justify">
+          Brindar a través de nuestros productos y servicios en el sector cuero-calzado,
+          la óptima satisfacción al consumidor y cliente sustentados por una empresa
+          económicamente próspera, comprometida por el desarrollo de su personal y de la sociedad en que se ubica.
         </p>
-
-        <ul class="list-unstyled text-center">
-          <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
-          <li class="list-inline-item"><a href=""><i class="fab fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href=""><i class="fab fa-whatsapp"></i></a></li>
-        </ul>
-
       </div>
+      <div class="col-md-6 text-center bg-warning">
+        <span><i class="fas fa-crosshairs miIcono"></i></span>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6 text-center bg-warning">
+        <span><i class="fas fa-medal miIcono"></i></span>
+      </div>
+      <div class="col-md-6 col-sm-12 col-12 bg-secondary text-light">
+        <h2>NUESTROS VALORES</h2>
+        <hr>
+         <h6 class="text-right">COMUNICACIÓN</h6>
+         <p class="text-justify">
+           Constituye una de las formas en que las
+           personas interactúan entre sí, estableciendo lazos.
+         </p><br>
+         <h6 class="text-left">COMPROMISO</h6>
+         <p class="text-justify">
+           Es la base para producir cualquier tipo de cambio.
+         </p><br>
+         <h6 class="text-right">INNOVACIÓN</h6>
+         <p  class="text-justify">
+           Es la aplicación de nuevas ideas, productos, servicios y
+           prácticas, con la intención de ser útiles para el incremento de la productividad.
+         </p><br>
+         <h6 class="text-left">RESPONSABILIDAD</h6>
+         <p class="text-justify">
+           Es aquel que conscientemente es la causa directa o indirecta
+           de un hecho y que, por lo tanto, es imputable por las consecuencias de ese hecho.
+         </p>
+      </div>
+    </div>
+    <!--Fin-->
+    <br>
+    <div class="row features">
+      <div class="col-md-6 col-sm-12 col-12 bg-secondary text-light">
+        <h2>UBICACIÓN</h2>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15138.530870787366!2d-97.41409233360945!3d18.454977906873488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bcd79467dfe1%3A0xb48a72eff17cae8f!2sBar+El+Agave!5e0!3m2!1ses-419!2smx!4v1530890732280" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6 text-center bg-warning">
+        <span><i class="fas fa-building miIcono"></i></span>
+      </div>
+    </div>
 
-  <!-- /.container -->
-  <script src="bower_components\jquery\dist\jquery.js"></script>
-<script src="bower_components\boostrap\dist\js\bootstrap.js"></script>
+    <!--Pie de pagina-->
+    <div class="footer bg-dark text-light pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center lead">
+            VEN Y CONOCENOS...
+          </p>
+          <ul class="list-unstyled text-center">
+            <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- /.Fin contenedor -->
 
-</nav>
+  <script src="bower_components\jquery\dist\jquery.js"></script>
+  <script src="bower_components\boostrap\dist\js\bootstrap.js"></script>
 </body>
 </html>
